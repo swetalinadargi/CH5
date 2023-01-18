@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.container1{
+    background-color: bisque;
+}
+.container2{
+    background-color: bisque;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+.num{
+    padding-top: 100px;
+    padding-left: 80px;
+}
+.box{
+   margin-top: 50px;
+    display: flex;
+   justify-content:space-around;
+   flex-wrap: wrap;
+}
+.box1{
+    background-color:purple;
+    border: 2px solid purple;
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+    margin-right: 0px;
+    animation: box1 5s linear infinite;
+    animation-direction:alternate ;
+}
+.box2{
+    background-color:palevioletred;
+    border: 2px solid palevioletred;
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+    margin-right: 0px;
+    animation: box2 5s linear infinite;
+    animation-direction:alternate ;
+}
+.box3{
+    background-color:plum;
+    border: 2px solid plum;
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+    margin-right: 0px;
+    animation: box3 5s linear infinite;
+    animation-direction:alternate ;
+}
+.box4{
+    background-color:pink;
+    border: 2px solid pink;
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+    margin-right: 0px;
+    animation-name: box4;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+.box5{
+    background-color:palegreen;
+    border: 2px solid palegreen;
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+    margin-right: 0px;
+    animation: box5 5s linear infinite;
+    animation-direction:alternate ;
+}
+.box6{
+    background-color:paleturquoise;
+    border: 2px solid paleturquoise;
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+    margin-right: 0px;
+    animation: box6 6s linear infinite;
+    animation-direction:alternate ;
+}
+@keyframes box1{
+    0%{
+        transform: skew(-30deg);
+    }
+    100%{
+        transform: skew(30deg);
+    }
+}
+@keyframes box2{
+    0%{
+        transform: skew(-40deg);
+    }
+    100%{
+        transform: skew(40deg);
+    }
+}
+@keyframes box3{
+  0%{
+    transform: rotate(90deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+@keyframes box4{
+    0%{
+        transform: scale(1,1);
+    }
+    100%{
+        transform: scale(1,0.5);
+    }
+}
+@keyframes box5{
+    0%{
+        transform: scale(0.6,1);
+    }
+    100%{
+        transform: scale(1 ,1);
+    }
+}
+@keyframes box6{
+    0%{
+      transform: rotate(90deg);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
+  }
+.boxx{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border: 2px solid green;
+    margin-top: 30px;
+    transition-duration: 5s;
+}
+.back a{
+        font-size: 30px;
+        color: blueviolet;
+        margin-left: 550px;
+}
+.next{
+    margin-top: 50px;
+}
+.next2{
+    margin-top: 10px;
+}
+.next2 a{
+    font-size: 30px;
+    color: blueviolet;
+    margin-left: 550px;
+   
+}
+.head{
+    margin-left: 500px;
+}
+.b1:hover{
+    width: 300px;
+    height: 80px;
+}
+.b2:hover{
+    width: 300px;
+    height: 300px;
+}
+.b3:hover{
+    width: 300px;
+    height: 80px;
+    transition-timing-function: ease;
+}
+.b4:hover{
+    width: 300px;
+    height: 80px;
+    transition-timing-function: ease-in;
+}
+.b5:hover{
+    width: 300px;
+    height: 80px;
+    transition-timing-function: ease-out;
+}
+.b6:hover{
+    width: 300px;
+    height: 80px;
+    transition-timing-function: ease-in-out;
+}
+.b7:hover{
+    width: 300px;
+    height: 80px;
+    transition-timing-function:linear;
+}
